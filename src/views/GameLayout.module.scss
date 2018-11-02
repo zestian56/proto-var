@@ -1,5 +1,12 @@
+@import '../variables.scss';
 .container {
-    background : rgba(0,0,0,0.1);
+    background: $primary-color;
     width: 100vw;
     height: 100vh;
+    @include flexbox(column);
+    .appContent {
+        flex-basis: 40vh;
+        flex-grow: 1;
+        max-height: calc(100vh - (#{$footer-height}));
+    }
 }

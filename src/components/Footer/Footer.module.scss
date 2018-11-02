@@ -1,0 +1,17 @@
+@import '../../variables.scss';
+.container {
+    @include flexbox(row);
+    @include flexbox-center;
+    height: $footer-height;
+    width: 100%;
+    flex-shrink:0;
+    flex-grow: 0;
+    .element {
+        @include flexbox(row);
+        @include flexbox-center;
+        flex: 0 1 10rem;
+        img {
+            height: 2rem;
+        }
+    }
+}

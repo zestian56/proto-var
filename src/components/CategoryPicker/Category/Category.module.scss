@@ -1,0 +1,19 @@
+@import '../../../variables.scss';
+.container {
+    margin: 0.5rem;
+    padding: 0.7rem 0.2rem;
+    color: black;
+    width: 7rem;
+    border-radius: 0.5rem;
+    background: white;
+    @include flexbox(row);
+    align-items: flex-end;
+    justify-content: flex-end;
+    &:hover {
+        cursor: pointer;
+    }
+    p {
+        writing-mode: tb-rl;
+        margin:0;
+    }
+}

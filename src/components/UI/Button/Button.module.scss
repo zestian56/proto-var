@@ -1,0 +1,18 @@
+@import '../../../variables.scss';
+.button {
+    background: white;
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    outline: inherit;
+    font: inherit;
+    transition: all ease-in-out 300ms;
+    @include box-shadow(2);
+    &:hover {
+        background: rgba(255,255,255,0.8);
+        cursor: pointer;
+    }
+}

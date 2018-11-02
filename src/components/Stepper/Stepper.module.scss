@@ -1,0 +1,24 @@
+@import '../../variables.scss';
+$step-diameter : 1.5rem;
+
+.container {
+    @include flexbox(column);
+    @include flexbox-center();
+    height: 100%;
+    margin-right:2rem;
+    .step{
+        border-radius: 50%;
+        margin: 0.2rem 0;
+        width: $step-diameter;
+        height: $step-diameter;
+        background: darkslategray;
+        border: solid 3px white;
+        transition: background .3s ease-in;
+    }
+    .completed {
+        background: green;
+    }
+    .fail {
+        background: red;
+    }
+}

@@ -1,14 +1,24 @@
-import React, { Component } from 'react';
-import * as classes from  './GameLayout.module.scss';
+import React from 'react';
+import {
+    BrowserRouter as Router
+} from 'react-router-dom';
 
-class GameLayout extends Component {
-    render() {
-        return (
-            <div className={classes.container}>
-                
+import * as classes from './GameLayout.module.scss';
+import GameLayoutRouter from './GameLayoutRouter';
+import gameLayoutRoutes from '../routes/gameLayout'
+import Footer from '../components/Footer/Footer';
+
+const GameLayout = props => {
+    return (
+        <div className={classes.container}>
+            <div className={classes.appContent}>
+                <Router>
+                    <GameLayoutRouter routes={gameLayoutRoutes} />
+                </Router>
             </div>
-        );
-    }
+            <Footer />
+        </div>
+    );
 }
 
 export default GameLayout;

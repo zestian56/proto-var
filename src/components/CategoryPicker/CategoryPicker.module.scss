@@ -1,0 +1,13 @@
+@import '../../variables.scss';
+.container {    
+    @include flexbox(column);
+    .title {
+        font-size: 0.8rem;
+        padding-left:8.5rem;
+        margin-bottom: 0.3rem;
+    }
+    .categories{
+        @include flexbox(row);
+        flex: 1 0 30vh;
+    }
+}

@@ -1,0 +1,13 @@
+@import '../../variables.scss';
+.container {
+    @include flexbox(column);
+    @include flexbox-center();
+    .partnerLogo {
+        height: 2.5em;
+        margin: 0.5em;
+    }
+    .mainLogo {
+        height: 8em;
+        margin: 0.5em;
+    }
+}

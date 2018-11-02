@@ -1,0 +1,28 @@
+@import '../../variables.scss';
+.container {
+    @include flexbox(column);
+    align-items: center;
+    padding: 1rem;
+    padding-bottom: 0;
+    align-items: center;
+    height: 100%;
+    color: white;
+    animation: fade;
+    animation-duration: 1s;
+    .rightContent {
+        flex-grow: 1;
+    }
+    .logos {
+        @include flexbox(row);
+        width: 100%;
+        flex: 0 0 5rem;
+        justify-content: flex-end;
+        font-size: 0.3rem;
+    }
+    .content {
+        flex: 1 0 40vh;
+        @include flexbox(row);
+        justify-content: space-between;
+        width: 85vw;
+    }
+}

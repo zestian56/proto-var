@@ -1,0 +1,47 @@
+@import '../../variables.scss';
+
+.container {
+    @include flexbox(column);
+    padding: 1rem;
+    padding-bottom:0;
+    align-items: center;
+    height: 100%;
+    color: white;
+    .brandContainer{
+        width: 100%;
+        font-size: 0.6rem;
+        @include flexbox(row);
+        justify-content: flex-start;
+    }
+    .logos {
+        margin-top:1rem;
+    }
+    .form {
+        @include flexbox(row);
+        flex-grow:1;
+        justify-content: space-evenly;
+        min-width: 50vw;
+        max-width: 70vw;
+        padding: 0.5rem;
+        height: 30vh;
+        .formItems {
+            height: 100%;
+            @include flexbox(column);
+            padding:0.5rem;
+            align-items: center;
+            justify-content: space-evenly;
+            .formItem {
+                width:12rem;
+            }
+        }
+        .button {
+            padding: 1rem;
+            border-radius:1rem;
+            &:hover {
+                transform: scale(1.2);
+                background: rgb(245, 245, 150);
+                cursor: pointer;
+            }
+        }
+    }
+}
