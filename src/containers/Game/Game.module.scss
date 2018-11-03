@@ -9,8 +9,10 @@
     color: white;
     animation: fade;
     animation-duration: 1s;
-    .rightContent {
-        flex-grow: 1;
+    .stepper {
+        position: absolute;
+        align-self: center;
+        left: 0;
     }
     .logos {
         @include flexbox(row);
@@ -21,8 +23,11 @@
     }
     .content {
         flex: 1 0 40vh;
+        padding: 0 2em;
+        position:relative;
         @include flexbox(row);
-        justify-content: space-between;
+        justify-content: center;
         width: 85vw;
     }
+    
 }

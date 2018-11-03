@@ -1,7 +1,7 @@
 import Login from "../containers/Login/Login";
 import Game from "../containers/Game/Game"
 
-const gameLayoutRoutes =  [
+const gameLayoutRoutes = [
     {
         path: "/game",
         component: Game
@@ -9,8 +9,8 @@ const gameLayoutRoutes =  [
     {
         path: "/login",
         component: Login
-    },    
-    {redirect:true,path: "/", to: "/login"}
+    },
+    { redirect: true, path: "/", to: "/login" }
 ]
 
 export default gameLayoutRoutes;

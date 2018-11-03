@@ -5,7 +5,6 @@ $step-diameter : 1.5rem;
     @include flexbox(column);
     @include flexbox-center();
     height: 100%;
-    margin-right:2rem;
     .step{
         border-radius: 50%;
         margin: 0.2rem 0;
