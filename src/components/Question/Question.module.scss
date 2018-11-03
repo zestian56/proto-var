@@ -1,0 +1,16 @@
+@import '../../variables.scss';
+.container {
+    @include flexbox(row);
+    @include flexbox-center();
+    height: 100%;
+    animation: fade;
+    animation-duration: 1s;
+    width: 100%;
+    .video {
+        width: 20rem;
+        margin: 1rem;
+    }
+    .options {
+        flex: 0 1 22rem;
+    }
+}

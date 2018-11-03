@@ -1,9 +1,10 @@
 @import '../../variables.scss';
-$step-diameter : 1.5rem;
+$step-diameter : 1.3rem;
 
 .container {
     @include flexbox(column);
     @include flexbox-center();
+    width: 1.5rem;
     height: 100%;
     .step{
         border-radius: 50%;
@@ -11,7 +12,7 @@ $step-diameter : 1.5rem;
         width: $step-diameter;
         height: $step-diameter;
         background: darkslategray;
-        border: solid 3px white;
+        border: solid 0.1rem white;
         transition: background .3s ease-in;
     }
     .completed {

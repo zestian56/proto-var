@@ -1,6 +1,7 @@
 @import '../../variables.scss';
 .container {    
     @include flexbox(column);
+    height: 100%;
     .title {
         font-size: 0.8rem;
         padding-left:8.5rem;
