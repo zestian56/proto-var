@@ -16,7 +16,7 @@ class Login extends Component {
             <div className={classes.container}>
                 <div className={classes.brandContainer}>
                     Diseñado por: <br />
-                    PaconicKioscos
+                    'Nombre de la empresa'
                 </div>
                 <Logos className={classes.logos}/>
                 <form className={classes.form}>

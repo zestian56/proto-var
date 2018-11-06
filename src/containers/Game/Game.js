@@ -5,7 +5,7 @@ import Logos from '../../components/Logos/Logos';
 import Stepper from '../../components/Stepper/Stepper';
 import CategoryPicker from '../../components/CategoryPicker/CategoryPicker';
 import Question from '../../components/Question/Question';
-
+import End from '../../components/End/End';
 
 import gameCategories from '../../models/categories';
 import questions from '../../models/questions';
@@ -30,6 +30,7 @@ class Game extends Component {
         super(props);
         this.state = {
             start: 0,
+            end: 0,
             steps: steps,
             activeStep: 0,
             activeCategory: 0,
@@ -64,10 +65,12 @@ class Game extends Component {
         newQuestions.splice(this.state.activeQuestion, 1);
         const newIndex = Math.round(Math.random() * (newQuestions.length - 1));
         if (newQuestions.length < 1) {
-            alert('No hay más preguntas')
+            console.log('step',this.state.activeStep)
+            //lert('No hay más preguntas')
             this.setState({
                 ...this.state,
                 steps: newSteps,
+                end: 1
             })
         } else {
             this.setState({
@@ -80,7 +83,7 @@ class Game extends Component {
         }
     }
     render() {
-        const { start, isSelecting, activeQuestions, activeQuestion, steps } = this.state;
+        const { start, isSelecting, activeQuestions, activeQuestion, steps, end } = this.state;
         return (
             <div className={classes.container}>
                 <div className={classes.logos}>
@@ -89,8 +92,9 @@ class Game extends Component {
                 <div className={classes.content}>
                     <Stepper className={classes.stepper} steps={steps} />
                     <div className={classes.rightContent}>
-                        {!start ? <CategoryPicker categories={gameCategories} categoryClick={this.handleSelectCategory} /> : null}
-                        {start && isSelecting ? <Question question={activeQuestions[activeQuestion]} optionClick={this.handleSelectOption} /> : null}
+                        {(!start) && !end ? <CategoryPicker categories={gameCategories} categoryClick={this.handleSelectCategory} /> : null}
+                        {(start && isSelecting) && !end ? <Question question={activeQuestions[activeQuestion]} optionClick={this.handleSelectOption} /> : null}
+                        {end ? <End steps={steps}/> : null}
                     </div>
                 </div>
             </div>
