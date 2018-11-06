@@ -6,10 +6,8 @@ import Stepper from '../../components/Stepper/Stepper';
 import CategoryPicker from '../../components/CategoryPicker/CategoryPicker';
 import Question from '../../components/Question/Question';
 
-
 import gameCategories from '../../models/categories';
 import questions from '../../models/questions';
-
 
 const steps = [
     {
@@ -23,7 +21,6 @@ const steps = [
         fail: false
     },
 ]
-
 
 class Game extends Component {
     constructor(props) {
@@ -41,7 +38,6 @@ class Game extends Component {
     handleSelectCategory = (indexCategory) => {
         const categoryQuestions = [...questions[gameCategories[indexCategory].id]];
         const firstIndex = Math.round(Math.random() * (categoryQuestions.length - 1));
-        console.log(firstIndex)
         this.setState({
             ...this.state,
             start: true,
