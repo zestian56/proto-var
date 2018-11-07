@@ -8,22 +8,22 @@ export default {
         options: {
             a: {
                 id: 'a',
-                label: 'A. El conductor porque no respeto el hecho de que hayan más usuarios en la vía.',
+                label: 'El conductor porque no respeto el hecho de que hayan más usuarios en la vía.',
                 isCorrect: false,
             },
             b: {
                 id: 'b',
-                label: 'B. El ciclista, ya que es imprudente hacer uso de los audífonos mientras conduce en la vía y de esa forma no puede percibir lo que pase a su alrededor.',
+                label: 'El ciclista, ya que es imprudente hacer uso de los audífonos mientras conduce en la vía y de esa forma no puede percibir lo que pase a su alrededor.',
                 isCorrect: true,
             },
             c: {
                 id: 'c',
-                label: 'C. Los dos conductores actuaron imprudentemente porque no respetaron normas de transito.',
+                label: 'Los dos conductores actuaron imprudentemente porque no respetaron normas de transito.',
                 isCorrect: false
             },
             d: {
                 id: 'd',
-                label: 'D. Los dos actuaron de manera correcta ya que cada quien iba a en su carril.',
+                label: 'Los dos actuaron de manera correcta ya que cada quien iba a en su carril.',
                 isCorrect: false
             }
         }
@@ -33,22 +33,22 @@ export default {
         options: {
             a: {
                 id: 'a',
-                label: 'A. El conductor porque no respeto el hecho de que hayan más usuarios en la vía.',
+                label: 'Los dos conductores actuaron imprudentemente porque no respetaron normas de transito.',
                 isCorrect: false,
             },
             b: {
                 id: 'b',
-                label: 'B. El ciclista, ya que es imprudente hacer uso de los audífonos mientras conduce en la vía y de esa forma no puede percibir lo que pase a su alrededor.',
+                label: 'El ciclista, ya que es imprudente hacer uso de los audífonos mientras conduce en la vía y de esa forma no puede percibir lo que pase a su alrededor.',
                 isCorrect: true,
             },
             c: {
                 id: 'c',
-                label: 'C. Los dos conductores actuaron imprudentemente porque no respetaron normas de transito.',
+                label: 'El ciclista, ya que es imprudente hacer uso de los audífonos mientras conduce en la vía y de esa forma no puede percibir lo que pase a su alrededor..',
                 isCorrect: false
             },
             d: {
                 id: 'd',
-                label: 'D. Los dos actuaron de manera correcta ya que cada quien iba a en su carril.',
+                label: 'El conductor porque no respeto el hecho de que hayan más usuarios en la vía.',
                 isCorrect: false
             }
         }
@@ -180,22 +180,22 @@ export default {
         options: {
             a: {
                 id: 'a',
-                label: 'A. El conductor porque no respeto el hecho de que hayan más usuarios en la vía.',
+                label: 'El conductor porque no respeto el hecho de que hayan más usuarios en la vía.',
                 isCorrect: false,
             },
             b: {
                 id: 'b',
-                label: 'B. El ciclista, ya que es imprudente hacer uso de los audífonos mientras conduce en la vía y de esa forma no puede percibir lo que pase a su alrededor.',
+                label: 'El ciclista, ya que es imprudente hacer uso de los audífonos mientras conduce en la vía y de esa forma no puede percibir lo que pase a su alrededor.',
                 isCorrect: true,
             },
             c: {
                 id: 'c',
-                label: 'C. Los dos conductores actuaron imprudentemente porque no respetaron normas de transito.',
+                label: 'Los dos conductores actuaron imprudentemente porque no respetaron normas de transito.',
                 isCorrect: false
             },
             d: {
                 id: 'd',
-                label: 'D. Los dos actuaron de manera correcta ya que cada quien iba a en su carril.',
+                label: 'Los dos actuaron de manera correcta ya que cada quien iba a en su carril.',
                 isCorrect: false
             }
         }
@@ -204,22 +204,22 @@ export default {
         options: {
             a: {
                 id: 'a',
-                label: 'A. El conductor porque no respeto el hecho de que hayan más usuarios en la vía.',
+                label: 'El conductor porque no respeto el hecho de que hayan más usuarios en la vía.',
                 isCorrect: false,
             },
             b: {
                 id: 'b',
-                label: 'B. El ciclista, ya que es imprudente hacer uso de los audífonos mientras conduce en la vía y de esa forma no puede percibir lo que pase a su alrededor.',
+                label: 'El ciclista, ya que es imprudente hacer uso de los audífonos mientras conduce en la vía y de esa forma no puede percibir lo que pase a su alrededor.',
                 isCorrect: true,
             },
             c: {
                 id: 'c',
-                label: 'C. Los dos conductores actuaron imprudentemente porque no respetaron normas de transito.',
+                label: 'Los dos conductores actuaron imprudentemente porque no respetaron normas de transito.',
                 isCorrect: false
             },
             d: {
                 id: 'd',
-                label: 'D. Los dos actuaron de manera correcta ya que cada quien iba a en su carril.',
+                label: 'Los dos actuaron de manera correcta ya que cada quien iba a en su carril.',
                 isCorrect: false
             }
         }
@@ -228,22 +228,22 @@ export default {
         options: {
             a: {
                 id: 'a',
-                label: 'A. El conductor porque no respeto el hecho de que hayan más usuarios en la vía.',
+                label: 'El conductor porque no respeto el hecho de que hayan más usuarios en la vía.',
                 isCorrect: false,
             },
             b: {
                 id: 'b',
-                label: 'B. El ciclista, ya que es imprudente hacer uso de los audífonos mientras conduce en la vía y de esa forma no puede percibir lo que pase a su alrededor.',
+                label: 'El ciclista, ya que es imprudente hacer uso de los audífonos mientras conduce en la vía y de esa forma no puede percibir lo que pase a su alrededor.',
                 isCorrect: true,
             },
             c: {
                 id: 'c',
-                label: 'C. Los dos conductores actuaron imprudentemente porque no respetaron normas de transito.',
+                label: 'Los dos conductores actuaron imprudentemente porque no respetaron normas de transito.',
                 isCorrect: false
             },
             d: {
                 id: 'd',
-                label: 'D. Los dos actuaron de manera correcta ya que cada quien iba a en su carril.',
+                label: 'Los dos actuaron de manera correcta ya que cada quien iba a en su carril.',
                 isCorrect: false
             }
         }
@@ -253,22 +253,22 @@ export default {
         options: {
             a: {
                 id: 'a',
-                label: 'A. El conductor porque no respeto el hecho de que hayan más usuarios en la vía.',
+                label: 'El conductor porque no respeto el hecho de que hayan más usuarios en la vía.',
                 isCorrect: false,
             },
             b: {
                 id: 'b',
-                label: 'B. El ciclista, ya que es imprudente hacer uso de los audífonos mientras conduce en la vía y de esa forma no puede percibir lo que pase a su alrededor.',
+                label: 'El ciclista, ya que es imprudente hacer uso de los audífonos mientras conduce en la vía y de esa forma no puede percibir lo que pase a su alrededor.',
                 isCorrect: true,
             },
             c: {
                 id: 'c',
-                label: 'C. Los dos conductores actuaron imprudentemente porque no respetaron normas de transito.',
+                label: 'Los dos conductores actuaron imprudentemente porque no respetaron normas de transito.',
                 isCorrect: false
             },
             d: {
                 id: 'd',
-                label: 'D. Los dos actuaron de manera correcta ya que cada quien iba a en su carril.',
+                label: 'Los dos actuaron de manera correcta ya que cada quien iba a en su carril.',
                 isCorrect: false
             }
         }
@@ -277,7 +277,7 @@ export default {
         options: {
             a: {
                 id: 'a',
-                label: 'A. El conductor porque no respeto el hecho de que hayan más usuarios en la vía.',
+                label: 'El conductor porque no respeto el hecho de que hayan más usuarios en la vía.',
                 isCorrect: false,
             },
             b: {

@@ -5,7 +5,6 @@ import classes from './Question.module.scss';
 import Option from './Option/Option';
 const Question = props => {
     const { question, className, optionClick } = props;
-    console.log(question)
     return (
         <div className={classNames(classes.container, className)}>
             <video key={question.url} autoPlay={true} loop className={classes.video} >

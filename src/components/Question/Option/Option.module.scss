@@ -1,8 +1,30 @@
+@import '../../../variables.scss';
+$id-diameter : 1.5rem;
 .container {
-    font-size:0.9rem;
+    font-size:0.8rem;
     padding: 0.1em;
     margin:  0.4em 0; 
+    padding: 0.5rem;
+    color: white;
+    @include flexbox(row);
+    @include flexbox-center();
     &:hover {
         cursor: pointer;
+    }
+
+    .label {
+        flex-grow: 1;
+    }
+
+    .id {
+        @include flexbox(row);
+        @include flexbox-center();
+        text-transform: uppercase;
+        border-radius: 50%;
+        color: black;
+        background-color: white;
+        flex: 0 0 $id-diameter;
+        height: $id-diameter;
+        margin-right: 0.4rem;
     }
 }

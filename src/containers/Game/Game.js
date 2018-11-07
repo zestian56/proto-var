@@ -10,7 +10,6 @@ import End from '../../components/End/End';
 import gameCategories from '../../models/categories';
 import questions from '../../models/questions';
 
-
 const steps = [
     {
         completed: false,
@@ -23,7 +22,6 @@ const steps = [
         fail: false
     },
 ]
-
 
 class Game extends Component {
     constructor(props) {
@@ -42,7 +40,6 @@ class Game extends Component {
     handleSelectCategory = (indexCategory) => {
         const categoryQuestions = [...questions[gameCategories[indexCategory].id]];
         const firstIndex = Math.round(Math.random() * (categoryQuestions.length - 1));
-        console.log(firstIndex)
         this.setState({
             ...this.state,
             start: true,

@@ -1,6 +1,6 @@
 $primary-color: #1f2227;
 $secondary-color: #61dafb;
-
+$font-color: white;
 $footer-height: 5rem;
 
 @mixin flexbox($direction) {
@@ -23,7 +23,6 @@ $footer-height: 5rem;
     } @else if $level == 5 {
         box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
     }
-
 }
 
 @keyframes fade {
